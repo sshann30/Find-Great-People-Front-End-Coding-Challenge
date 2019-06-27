@@ -40,7 +40,7 @@
   }
   .container {
     width: 90%;
-    padding: 40px 0px;
+    padding: 40px 85px;
   }
   .container2 {
     padding: 20px 30px;
@@ -174,4 +174,8 @@
     position: absolute;
     bottom: 0;
     left: 95px;
+  }
+  .animal-link{
+      color:#ffffff;
+      text-decoration: underline;
   }
