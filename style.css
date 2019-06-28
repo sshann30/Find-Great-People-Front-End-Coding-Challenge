@@ -1,22 +1,22 @@
-  body {
-    font-family: 'Open Sans', sans-serif;
+body {
+    font-family: "Open Sans", sans-serif;
     color: #0d586d;
     font-size: 20px;
   }
-  h1{
-    font-family: 'Passion One';
+  h1 {
+    font-family: "Passion One";
     color: #d9410c;
     font-size: 60px;
-    text-shadow: 3px 2px 0px #fff, 6px 6px 0px rgba(0,0,0,0.15);
+    text-shadow: 3px 2px 0px #fff, 6px 6px 0px rgba(0, 0, 0, 0.15);
   }
-  h2{
+  h2 {
     margin: 10px 0 30px 0;
     /* letter-spacing: 10px;       */
     font-size: 30px;
     color: #0d586d;
-
   }
-  h3, h4 {
+  h3,
+  h4 {
     margin: 10px 0 30px 0;
     /* letter-spacing: 10px;       */
     font-size: 30px;
@@ -28,28 +28,28 @@
     font-size: 20px;
     color: #1c9bc6;
   }
-  .card-text{
+  .card-text {
     margin: 10px 0 30px 0;
     /* letter-spacing: 10px;       */
     font-size: 15px;
     color: #1c9bc6;
   }
-  .col-sm-3{
+  .col-sm-3 {
     width: 20%;
     margin: 15px;
   }
   .container {
-    width: 90%;
+    width: 100%;
     padding: 40px 85px;
   }
   .container2 {
-    padding: 20px 30px;
-    background-color:#137595;
+    /* padding: 20px 30px; */
+    background-color: #137595;
     border-radius: 10px;
+    display: flex
   }
   .container3 {
     padding: 5% 25%;
-    
   }
   .person {
     border: 10px solid transparent;
@@ -61,13 +61,17 @@
   .person:hover {
     border-color: #ffffff;
   }
-
+  
   .bg-1 {
     background: #199cc4;
     color: #ffffff;
   }
-  .bg-1 h3 {color: #fff;}
-  .bg-1 p {font-family: 'Open Sans', sans-serif;}
+  .bg-1 h3 {
+    color: #fff;
+  }
+  .bg-1 p {
+    font-family: "Open Sans", sans-serif;
+  }
   .list-group-item:first-child {
     border-top-right-radius: 0;
     border-top-left-radius: 0;
@@ -78,19 +82,18 @@
   }
   
   .btn {
-    
     background-color: #ffffff;
     color: #137595;
     border-radius: 0;
-    transition: .2s;
-    
+    transition: 0.2s;
+  
     bottom: 10px;
     left: 45%;
     justify-content: center;
     bottom: 0;
-  
   }
-  .btn:hover, .btn:focus {
+  .btn:hover,
+  .btn:focus {
     border: 1px solid #0d586d;
     background-color: #fff;
     color: #000;
@@ -99,9 +102,9 @@
   .nav-tabs li a {
     color: #0d586d;
   }
- 
+  
   .navbar {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     margin-bottom: 0;
     background-color: #137595;
     border: 0;
@@ -110,17 +113,18 @@
     /* opacity: 0.9; */
     padding: 0px 135px;
   }
-  .navbar li a, .navbar .navbar-brand { 
+  .navbar li a,
+  .navbar .navbar-brand {
     color: #ffffff !important;
   }
   .navbar-nav li a:hover {
     color: #fff !important;
   }
   .navbar-nav li.active a {
-    color: #094253!important;
+    color: #094253 !important;
     background-color: #ffffff !important;
   }
-  .navbar-default .navbar-toggle {
+  .navbar-toggle {
     border-color: transparent;
   }
   .open .dropdown-toggle {
@@ -133,24 +137,29 @@
   }
   .dropdown-menu li a:hover {
     background-color: #137595 !important;
-    
   }
-
-  .card{
+  
+  .card {
     background-color: #ffffff !important;
     border-radius: 10px;
     text-align: center;
-    /* width: 250px;
-    height: 400px; */
-    
-  }
-  .card-img-top{
+    padding: 0 5px 0 5px;
+    flex: 1;
+    flex-basis: 23%;
+    margin: 5px;
+}
+  .card-img-top {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
+  .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
   footer {
-    background-color: #137595;;
+    background-color: #137595;
     color: #f5f5f5;
     padding: 10px;
   }
@@ -158,27 +167,54 @@
     color: #f5f5f5;
   }
   footer a:hover {
-    color: #777;
+    color: #094253;
     text-decoration: none;
-  }  
+  }
   .form-control {
     border-radius: 0;
   }
   textarea {
     resize: none;
   }
-  .icon-bar{
+  .icon-bar {
     color: #ffffff;
   }
-  .card-bottom{
+  .card-bottom {
     position: absolute;
     bottom: 0;
     left: 95px;
   }
-  .animal-link{
-      color:#ffffff;
-      text-decoration: underline;
+  .animal-link {
+    color: #ffffff;
+    text-decoration: underline;
   }
-  /* .card-deck>.card{
-padding: 30px !important;; 
-  } */
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #f5f5f5;
+  }
+  .row {
+    display: flex;
+  }
+  .col {
+    flex: 1;
+  }
+  img {
+    width:200px;
+    height:400px;
+    object-fit:cover;
+  }
+  @media only screen and (max-width: 1250px) {
+    /* .card {
+      width: 300px;
+      margin: 20px;
+      padding: 20px;
+    } */
+  
+    btn {
+      justify-content: center;
+      
+    }
+    
+    .container2 {
+        visibility: none;
+       }
+  }
