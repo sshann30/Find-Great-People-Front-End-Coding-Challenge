@@ -49,7 +49,7 @@ body {
     display: flex
   }
   .container3 {
-    padding: 5% 25%;
+    padding: 5% 20%;
   }
   .person {
     border: 10px solid transparent;
@@ -80,7 +80,9 @@ body {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
   }
-  
+  /* p{
+      font-size: 12px
+  } */
   .btn {
     background-color: #ffffff;
     color: #137595;
@@ -111,7 +113,7 @@ body {
     font-size: 12px !important;
     /* letter-spacing: 4px; */
     /* opacity: 0.9; */
-    padding: 0px 135px;
+    padding: 0px 70px;
   }
   .navbar li a,
   .navbar .navbar-brand {
