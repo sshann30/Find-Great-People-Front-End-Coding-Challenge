@@ -46,7 +46,7 @@ body {
     /* padding: 20px 30px; */
     background-color: #137595;
     border-radius: 10px;
-    display: flex
+    /* display: flex */
   }
   .container3 {
     padding: 5% 20%;
@@ -140,6 +140,7 @@ body {
   .dropdown-menu li a:hover {
     background-color: #137595 !important;
   }
+ 
   
   .card {
     background-color: #ffffff !important;
@@ -208,6 +209,10 @@ body {
     width:200px;
     height:200px;
     object-fit:cover;
+  }
+  a{
+    color: #ffffff;
+    
   }
 
   @media only screen and (max-width: 1250px) {
